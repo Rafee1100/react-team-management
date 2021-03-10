@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import topBanner from '../../Photo/top.jpg';
 import './Home.css'
 import Teams from '../Teams/Teams';
 

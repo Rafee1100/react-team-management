@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fafacebook } from '@fortawesome/free-solid-svg-icons';
 import './TeamDetails.css';
 import ball from '../../Icon/football (1) 1.png';
 import built from '../../Icon/found 1.png';
 import flag from '../../Icon/flag (1) 1.png';
 import gender from '../../Icon/male-gender-sign 1.png';
 import maleTeam from '../../Photo/male.png';
-import femaleTeam from '../../Photo/female.png';
+// import femaleTeam from '../../Photo/female.png';
 import facebook from '../../Icon/Facebook.png';
 import twitter from '../../Icon/Twitter.png';
 import youtube from '../../Icon/YouTube.png'
@@ -55,9 +53,9 @@ const TeamDetails = () => {
                 </div>
                 <div class="container icons">
                     <div class="container row">
-                        <div class="col"><a href={`https://${teamDetails.strTwitter}`}  target="_blank"> <img src={twitter} alt="image"/></a>
-                        <a href={`https://${teamDetails.strFacebook}`} target="_blank"> <img src={facebook} alt="image"/> </a>
-                        <a href={`https://${teamDetails.strYoutube}`} target="_blank"> <img src={youtube} alt="image"/> </a>
+                        <div class="col"><a href={`https://${teamDetails.strTwitter}`}  target="_blank" rel="noreferrer"> <img src={twitter} alt=""/></a>
+                        <a href={`https://${teamDetails.strFacebook}`} target="_blank" rel="noreferrer"> <img src={facebook} alt=""/> </a>
+                        <a href={`https://${teamDetails.strYoutube}`} target="_blank" rel="noreferrer"> <img src={youtube} alt=""/> </a>
                         </div>
                         {/* <div class="col"><a href=""> <img src={facebook} alt="image"/> </a></div>
                         <div class="col"><a href=""> <img src={youtube} alt="image"/> </a></div> */}
