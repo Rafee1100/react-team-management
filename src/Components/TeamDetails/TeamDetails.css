@@ -1,0 +1,46 @@
+.second-part{
+    background-color: darkblue;
+    padding:10px;
+}
+.second-part div{
+    margin-top: 5px;
+}
+.info{
+    background-color:blue;
+    width: 80%;
+    padding:20px;
+    border-radius:8px;
+    margin-left: 10%;
+}
+.information{
+    color: white;
+    font-size:8px;
+    text-align:left;
+    font-weight: bold;
+    padding:15px;
+}
+.information h4{
+    font-size:12px;
+}
+.information h6 img{
+    width: 20px;
+    height: 20px;
+}
+.team-player img{
+    width:100%;
+    padding:15px;
+    height: 100%;
+}
+.description{
+    width: 80%;
+    padding:20px;
+    border-radius:8px;
+    margin-left: 10%;
+    color:white;
+    text-align:left;
+}
+.icons img{
+    width: 80px;
+    height: 80px;
+    
+}
