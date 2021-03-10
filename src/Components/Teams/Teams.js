@@ -20,7 +20,7 @@ const Teams = (props) => {
         <div>
             <div className=" container all">
             <div class="card-body cards">
-                    <img src={strTeamBadge}></img>
+                    <img src={strTeamBadge} alt=""></img>
                     <h5>{strTeam}</h5>                    
                     <p class="card-text">Sports Type: {strSport}</p>
                     <button onClick={()=>showDetails(idTeam)} class="btn btn-primary">Explore <FontAwesomeIcon icon={faArrowRight} /></button>
