@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import TeamDetails from './Components/TeamDetails/TeamDetails';
+import NotFound from './Components/NotFound/NotFound';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="*">
+            <NotFound/>
           </Route>
         </Switch>
       </div>
