@@ -1,12 +1,12 @@
 .second-part{
-    background-color: darkblue;
+    background-color: rgb(65, 7, 90);
     padding:10px;
 }
 .second-part div{
     margin-top: 5px;
 }
 .info{
-    background-color:blue;
+    background-color:crimson;
     width: 80%;
     padding:20px;
     border-radius:8px;
@@ -39,8 +39,9 @@
     color:white;
     text-align:left;
 }
-.icons img{
-    width: 80px;
-    height: 80px;
-    
+.icons a{
+   font-size:35px;
+   color: white;
+   padding:5px;
+   margin: 10px;
 }

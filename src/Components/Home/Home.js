@@ -16,7 +16,7 @@ const Home = () => {
        
         <div className="container">
             <div className="top align-items-center justify-content-center  pt-5">
-               <h1>Primer League</h1>
+               <h1>FOOTBALL ADDA</h1>
               
             </div>
             <div className="row-gx-5 teams-area">
