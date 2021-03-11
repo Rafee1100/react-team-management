@@ -25,13 +25,13 @@ function App() {
         </ul> */}
 
         <Switch>
-          <Route path="/about">
+          <Route path="/home">
             <Home />
           </Route>
           <Route path="/team/:id">
             <TeamDetails />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>
