@@ -25,7 +25,7 @@ const TeamDetails = () => {
         .then(data =>setTeamDetails(data.teams[0]))
     },[id])
 
-    const {strTeamBadge,strTeam,intFormedYear,strCountry,strSport,strGender,strDescriptionEN,strStadiumThumb}=teamDetails;
+    const {strTeamBadge,strTeam,intFormedYear,strCountry,strSport,strGender,strDescriptionEN}=teamDetails;
 
     const topImageStyle = {
         width:'220px',
